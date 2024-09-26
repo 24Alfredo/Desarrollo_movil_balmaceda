@@ -1,15 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="MiAppCrud.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MiAppCrud"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MiAppCrud">
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MiAppCrud.Views"
+       x:Class="MiAppCrud.AppShell">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Productos">
+            <ShellContent ContentTemplate="{DataTemplate local:ProductoListPage}" />
+        </Tab>
+
+        <Tab Title="Categorías">
+            <ShellContent ContentTemplate="{DataTemplate local:CategoriaListPage}" />
+        </Tab>
+
+        <Tab Title="Tiendas">
+            <ShellContent ContentTemplate="{DataTemplate local:TiendaListPage}" />
+        </Tab>
+
+        <Tab Title="Despachos">
+            <ShellContent ContentTemplate="{DataTemplate local:DespachoListPage}" />
+        </Tab>
+
+        <Tab Title="Compras">
+            <ShellContent ContentTemplate="{DataTemplate local:CompraListPage}" />
+        </Tab>
+
+        <Tab Title="Departamento Ventas">
+            <ShellContent ContentTemplate="{DataTemplate local:DepartamentoVentasListPage}" />
+        </Tab>
+    </TabBar>
 
 </Shell>

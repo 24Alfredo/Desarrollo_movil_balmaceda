@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="MiAppCrud.Views.DepartamentoVentasListPage">
+
+    <StackLayout>
+        <Button Text="Agregar Departamento de Ventas" Clicked="OnAddDepartamentoClicked"/>
+        <ListView x:Name="DepartamentosListView" ItemTapped="OnDepartamentoTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Nombre}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

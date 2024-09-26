@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiAppCrud.Views.DespachoListPage">
+
+    <StackLayout>
+        <Button Text="Agregar Despacho" Clicked="OnAddDespachoClicked"/>
+        <ListView x:Name="DespachoListView" ItemTapped="OnDespachoTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding PersonaContacto}" Detail="{Binding Celular}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

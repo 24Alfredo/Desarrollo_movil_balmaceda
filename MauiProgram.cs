@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Maui.Controls;
+using System.IO; // Asegúrate de incluir esta directiva
+using MiAppCrud.Services; // Importa el espacio de nombres donde se encuentra UsuarioService
+using MiAppCrud.Views; // Importa el espacio de nombres donde se encuentra LoginPage
 
 namespace MiAppCrud
 {
@@ -15,9 +19,12 @@ namespace MiAppCrud
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            // Ruta de la base de datos
+            var dbPath = Path.Combine(FileSystem.AppDataDirectory, "miappcrud.db");
+
+            // Registrar servicios
+            builder.Services.AddSingleton<UsuarioService>(sp => new UsuarioService(dbPath));
+            builder.Services.AddSingleton<LoginPage>(); // Asegúrate de que LoginPage esté registrado
 
             return builder.Build();
         }

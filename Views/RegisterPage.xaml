@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiAppCrud.Views.RegisterPage">
+    <StackLayout Padding="20">
+        <Label Text="Nombre de Usuario" />
+        <Entry x:Name="NombreUsuarioEntry" Placeholder="Ingresa tu nombre de usuario" />
+
+        <Label Text="Email" />
+        <Entry x:Name="EmailEntry" Placeholder="Ingresa tu email" />
+
+        <Label Text="Contraseña" />
+        <Entry x:Name="ContrasenaEntry" Placeholder="Ingresa tu contraseña" IsPassword="True" />
+
+        <Button Text="Registrar" Clicked="OnRegisterButtonClicked" />
+
+        <Label x:Name="MensajeLabel" IsVisible="False" TextColor="Red" />
+    </StackLayout>
+</ContentPage>

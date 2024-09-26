@@ -58,6 +58,48 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.CategoriaL
 build_metadata.AdditionalFiles.TargetPath = Views\CategoriaListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CategoriaListPage.xaml
 
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/CompraEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.CompraEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompraEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompraEditPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/CompraListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.CompraListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompraListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompraListPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/DepartamentoVentasEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.DepartamentoVentasEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DepartamentoVentasEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DepartamentoVentasEditPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/DepartamentoVentasListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.DepartamentoVentasListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DepartamentoVentasListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DepartamentoVentasListPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/DespachoEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.DespachoEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DespachoEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DespachoEditPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/DespachoListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.DespachoListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DespachoListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DespachoListPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
 [C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/ProductoEditPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.ProductoEditPage.xaml
@@ -69,3 +111,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.ProductoListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProductoListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProductoListPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/TiendaEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.TiendaEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TiendaEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TiendaEditPage.xaml
+
+[C:/Users/MSI/source/repos/MiAppCrud/MiAppCrud/Views/TiendaListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiAppCrud.Views.TiendaListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TiendaListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TiendaListPage.xaml

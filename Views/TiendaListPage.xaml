@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiAppCrud.Views.TiendaListPage"
+             Title="Lista de Tiendas">
+
+    <StackLayout Padding="10">
+        <!-- Título -->
+        <Label Text="Tiendas" FontSize="24" HorizontalOptions="Center" />
+
+        <!-- ListView para mostrar las tiendas -->
+        <ListView x:Name="TiendasListView"
+                  ItemTapped="OnTiendaTapped"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding NombreTienda}" FontSize="18" />
+                            <Label Text="{Binding Ubicacion}" FontSize="14" TextColor="Gray" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Botón para agregar una nueva tienda -->
+        <Button Text="Agregar Tienda"
+                Clicked="OnAddTiendaClicked"
+                BackgroundColor="LightBlue"
+                TextColor="White" />
+    </StackLayout>
+</ContentPage>
